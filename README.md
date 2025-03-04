@@ -46,8 +46,8 @@ DB_USERNAME=votre_utilisateur
 DB_PASSWORD=votre_mot_de_passe
 
 # Configuration Stripe
-STRIPE_KEY=pk_live_51QxWGRJ2MvgUJKrgiwPfHERLqdWAVSQ2vIQHuonN2Fwbiq8MCcomxrdkze1O1cI2i6435CAsUHURK1KjzleMiYoJ00TuyS50ER
-STRIPE_SECRET=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
+STRIPE_KEY=
+STRIPE_SECRET=
 
 
 # Configuration email
