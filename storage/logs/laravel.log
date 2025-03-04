@@ -3244,3 +3244,9 @@ DETAIL:  La ligne en échec contient (2, 15, 450.00, null, null, completed, null
 [2025-03-03 16:52:29] local.INFO: Email récapitulatif envoyé à l'administration {"email":"alexalix58@gmail.com"} 
 [2025-03-03 16:53:44] local.INFO: Email de facture envoyé au client {"email":"alexalix58@gmail.com"} 
 [2025-03-03 16:53:45] local.INFO: Email récapitulatif envoyé à l'administration {"email":"alexalix58@gmail.com"} 
+[2025-03-03 17:33:52] local.ERROR: Erreur lors de la création de la session Stripe {"team_id":28,"error":"The Checkout Session's total amount due must add up to at least €0.50 eur"} 
+[2025-03-03 17:34:30] local.ERROR: Erreur lors de la création de la session Stripe {"team_id":29,"error":"The Checkout Session's total amount due must add up to at least €0.50 eur"} 
+[2025-03-03 17:36:14] local.INFO: Email de facture envoyé au client {"email":"riqeni@mailinator.com"} 
+[2025-03-03 17:36:16] local.INFO: Email récapitulatif envoyé à l'administration {"email":"alexalix58@gmail.com"} 
+[2025-03-03 18:17:39] local.INFO: Email de facture envoyé au client {"email":"alexalix58@gmail.com"} 
+[2025-03-03 18:17:40] local.INFO: Email récapitulatif envoyé à l'administration {"email":"alexalix58@gmail.com"} 

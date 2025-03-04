@@ -30,12 +30,13 @@ class PaymentController extends Controller
             Stripe::setApiKey($stripeSecret);
 
             // Créer une session de paiement Stripe
-            $session = Session::create([
+            $stripe = new \Stripe\StripeClient($stripeSecret);
+            $session = $stripe->checkout->sessions->create([
                 'payment_method_types' => ['card'],
                 'line_items' => [[
                     'price_data' => [
                         'currency' => 'eur',
-                        'unit_amount' => 45000, // 450€ en centimes
+                        'unit_amount' => 45000, // 450€
                         'product_data' => [
                             'name' => 'Inscription au tournoi Event Five',
                             'description' => 'Inscription pour l\'équipe ' . $team->company_name,
