@@ -2,6 +2,7 @@
 # Event Five - Formulaire d'Inscription Tournoi
 
 Ce projet est un système d'inscription en ligne pour le tournoi de football inter-entreprises Event Five, incluant le paiement Stripe et la génération de factures.
+L'application n'utilise pas de CMS, c'est une application Laravel native
 
 ## Prérequis
 
